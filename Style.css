@@ -1,0 +1,134 @@
+﻿body {
+    background-color: black;
+    background-attachment: fixed;
+    background-image: url('Images/spacBackground.jpg');
+    background-repeat: no-repeat;
+    background-position-y: 95%;
+}
+
+.navbar-inverse {
+    margin: 0;
+    border-radius: 0;
+    border-bottom: 2px solid #ffffff;
+    background-color: black;
+    padding: 1% 0;
+    font-size: 1.2em;
+    color: white;
+}
+
+.navbar-brand {
+    float: left;
+    min-height: 55px;
+    padding: 0 15px 5px;
+}
+
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
+    color: blue;
+    background-color: black;
+}
+
+.carousel-caption {
+    top: 40%;
+    /*transform: translateX(-60px);*/
+    font-family: Britannic;
+    text-shadow: 4px 2px 5px black;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: solid silver 1px;
+    padding: 1% 2%;
+    border-radius: 30% 30%;
+}
+
+h4 {
+    font-family: Britannic;
+    font-size: 1.8em;
+    color: white;
+    text-shadow: 2px 1px 2px lightblue;
+    padding: 0 0;
+}
+
+h3 {
+    font-family: Britannic;
+    font-size: 3.8em;
+    color: white;
+    text-shadow: 2px 1px 2px lightblue;
+    padding: 10% 0;
+}
+
+h2 {
+    font-family: Britannic;
+    font-size: 3.8em;
+    color: white;
+    text-shadow: 2px 1px 2px lightblue;
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
+#icon {
+    max-width: 100px;
+    padding-bottom: 12%;
+}
+
+p {
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 2px 1px 2px black;
+}
+
+footer {
+    background-color: black;
+    padding: 2%;
+    padding-top: 8%;
+    width: 100%;
+}
+
+.fa {
+    font-size: 40px;
+    padding: 3% 5%;
+    color: #4cff00;
+}
+
+    .fa:hover {
+        color: #21872c;
+        text-decoration: none;
+    }
+
+#footerLogo {
+    font-size: 10%;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+
+    #icon {
+        max-width: 80px;
+        padding: 5% 0;
+    }
+
+    h2, h3 {
+        font-size: 1.8em;
+    }
+
+    p {
+        font-size: 0.6em;
+    }
+
+    body {
+        background-position-y: 55%;
+        background-attachment: fixed;
+    }
+
+    .fa {
+        font-size: 15px;
+    }
+
+    #footerLogo {
+        width: 180px;
+        height: 140px;
+    }
+}
